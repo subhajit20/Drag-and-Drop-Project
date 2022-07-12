@@ -1,0 +1,88 @@
+.main {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+#shape_container {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+}
+
+.container {
+    margin-top: 2rem;
+    /* background-color: aquamarine; */
+    border-style: dotted;
+    width: 100%;
+    height: auto;
+    padding: 1.1rem;
+}
+
+#dragablearea {
+    width: 600px;
+    height: 300px;
+    border-style: dotted;
+    margin-left: 1.2rem;
+}
+
+#myimageList {
+    display: flex;
+    border-style: dotted;
+    width: 400px;
+    height: 200px;
+    flex-wrap: wrap;
+    overflow: scroll;
+}
+
+#image {
+    width: 80px;
+    height: 70px;
+    margin: 1rem;
+}
+
+.Headings {
+    display: flex;
+    justify-content: space-around;
+    font-size: 1.3rem;
+    font-family: sans-serif;
+}
+
+.saveComponent {
+    margin-top: 1.3rem;
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    right: 120px;
+}
+
+.saveComp {
+    background-color: transparent;
+    margin-right: 1.2rem;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#new {
+    background-color: transparent;
+    padding-right: 20px;
+    padding-left: 20px;
+    border-radius: 10px;
+}
+
+#save {
+    background-color: transparent;
+    padding-right: 20px;
+    padding-left: 20px;
+    border-radius: 10px;
+}
+
+.container_button {
+    display: flex;
+    justify-content: center;
+}
+
+.buttons {
+    background-color: transparent;
+    padding-left: 1.2rem;
+    padding-right: 1.2rem;
+    margin: 1.1rem;
+}
